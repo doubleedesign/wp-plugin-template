@@ -1,0 +1,22 @@
+{
+	"name": "doubleedesign/new-plugin",
+	"version": "0.0.1",
+	"description": "",
+	"type": "wordpress-plugin",
+	"authors": [
+		{
+			"name": "Leesa Ward",
+			"email": "leesa@doubleedesign.com.au"
+		}
+	],
+	"autoload": {
+		"psr-4": {
+			"Doubleedesign\\NewPlugin\\": "src/"
+		}
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"require-dev": {
+		"laravel/pint": "^1.24"
+	}
+}
