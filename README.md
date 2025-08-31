@@ -15,4 +15,6 @@ This repo provides the boilerplate for a custom WordPress or ClassicPress plugin
 5. Update `composer.json` with your plugin and author information
 6. Update the namespace prefix from `Doubleedesign` to your own vendor name in `composer.json` and in the PHP files
 7. Delete `setup.ps1`
-8. Update README.md with details about your new plugin.
+8. Remove this template repo as the remote in Git (or just delete `.git` to start totally fresh)
+9. Update README.md with details about your new plugin
+10. Initialise and commit to your own Git repo.
